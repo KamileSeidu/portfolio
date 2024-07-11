@@ -57,8 +57,8 @@
 }
 
 .menu-size {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 .logo {
@@ -109,6 +109,11 @@ li {
   color: white;
   padding: 1rem;
   border-radius: 5px;
+}
+
+img {
+  width: 45px;
+  height: 45px;
 }
 
 a {

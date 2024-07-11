@@ -1,9 +1,12 @@
-import MainNavigation from "./components/MainNavigation";
+// import MainNavigation from "./components/MainNavigation";
+
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
-      <MainNavigation />
+      <Hero />
+      {/* <MainNavigation /> */}
     </>
   );
 }
