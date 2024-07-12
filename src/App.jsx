@@ -1,11 +1,14 @@
 // import MainNavigation from "./components/MainNavigation";
 
-import Hero from "./components/Hero";
+import AboutSection from "./components/AboutSection";
+
+// import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
-      <Hero />
+      <AboutSection />
+      {/* <Hero /> */}
       {/* <MainNavigation /> */}
     </>
   );
