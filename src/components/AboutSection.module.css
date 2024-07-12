@@ -5,6 +5,10 @@ img {
   box-shadow: 0px 2px 40px 0px rgba(204, 203, 202, 0.9);
 }
 
+.about-paragraph {
+  text-align: center;
+}
+
 @media screen and (min-width: 1024px) {
   .about {
     display: flex;
@@ -26,6 +30,7 @@ img {
   }
 
   .about-paragraph {
+    text-align: left;
     padding: 2.5rem;
   }
 }

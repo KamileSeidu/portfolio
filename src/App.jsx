@@ -1,15 +1,15 @@
-// import MainNavigation from "./components/MainNavigation";
+// import AboutSection from "./components/AboutSection";
 
-import AboutSection from "./components/AboutSection";
+// import SkillCard from "./components/SkillCard";
 
-// import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <>
-      <AboutSection />
-      {/* <Hero /> */}
-      {/* <MainNavigation /> */}
+      {/* <SkillCard /> */}
+      <Skills />
+      {/* <AboutSection /> */}
     </>
   );
 }
