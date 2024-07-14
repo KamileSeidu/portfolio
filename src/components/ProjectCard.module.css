@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #ffebdb;
+  padding: 1.5rem;
+}
+
+h2 {
+  color: #fd6f00;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}

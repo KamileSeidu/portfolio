@@ -1,15 +1,9 @@
-// import AboutSection from "./components/AboutSection";
-
-// import SkillCard from "./components/SkillCard";
-
-import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <>
-      {/* <SkillCard /> */}
-      <Skills />
-      {/* <AboutSection /> */}
+      <Projects />
     </>
   );
 }

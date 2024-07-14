@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+.tab-button {
+  display: flex;
+  gap: 15px;
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
