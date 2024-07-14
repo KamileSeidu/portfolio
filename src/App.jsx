@@ -1,9 +1,10 @@
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
     <>
-      <Projects />
+      <Testimonial />
     </>
   );
 }
