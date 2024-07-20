@@ -10,7 +10,7 @@ export default function Contact() {
       </p>
       <div className={classes.form}>
         <form>
-          <input type="text" placeholder="Enter your email" />
+          <input type="email" placeholder="Enter your email" />
           <textarea
             name="message"
             id="message"

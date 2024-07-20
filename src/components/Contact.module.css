@@ -5,6 +5,7 @@ h1 {
 
 p {
   font-size: 2rem;
+  text-align: center;
 }
 
 .btn {
@@ -14,5 +15,35 @@ p {
   color: white;
   padding: 1rem 2rem;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  transition: background-color 0.3s;
+  /* align-self: center;
+  width: auto; */
+}
+
+.btn:hover {
+  background-color: #fd6500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: 1px solid #3c3c3c;
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #fd6f00;
+}
+
+textarea {
+  height: 250px;
 }
