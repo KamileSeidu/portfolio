@@ -1,0 +1,56 @@
+footer {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  align-self: center;
+}
+
+img {
+  width: 67px;
+  height: 67px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 span {
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 39px;
+}
+
+.dark {
+  text-align: center;
+  background-color: #545454;
+  color: white;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.dark span {
+  color: #fd6f00;
+}
