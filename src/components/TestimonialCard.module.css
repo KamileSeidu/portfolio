@@ -1,4 +1,4 @@
-img {
+.card img {
   width: 100%;
   border-radius: 100%;
 }
@@ -11,22 +11,34 @@ img {
   box-shadow: 0px 0px 10px 3px rgba(201, 194, 175, 0.84);
 }
 
-span {
+.card__content span {
   font-size: 1.6rem;
   color: #fd6f00;
 }
 
-h1,
-h2 {
+.card__content p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+@media (min-width: 1024px) {
+  .card__content p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}
+
+.card__content h1,
+.card__content h2 {
   margin: 0;
 }
 
-h1 {
+.card__content h1 {
   font-size: 1.5rem;
   font-weight: 600px;
 }
 
-h2 {
+.card__content h2 {
   font-size: 1.3rem;
   font-weight: 400;
 }

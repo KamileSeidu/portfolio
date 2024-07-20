@@ -19,8 +19,8 @@ export default function HomePage() {
         <Projects />
         <Testimonial />
         <Contact />
-        <Footer />
       </section>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import classes from "../components/MainNavigation.module.css";
-import logo from "../assets/Logo.png";
+import logo from "../assets/code.svg";
 import { useState } from "react";
 
 export default function MainNavigation() {
@@ -11,11 +11,12 @@ export default function MainNavigation() {
   return (
     <nav>
       <div className={classes.logo}>
-        <img src={logo} alt="" />
-        <h1>
+        <img src={logo} alt="" className={`${classes["logo-img"]}`} />
+        <h1 className={`${classes["logo-heading"]}`}>
           <span>K</span>amile
         </h1>
       </div>
+
       <input
         type="checkbox"
         role="button"
@@ -23,7 +24,9 @@ export default function MainNavigation() {
         className={`${classes.menu} ${classes["menu-size"]}`}
         onClick={clickHandler}
       ></input>
-      <ul className={`${isToggled && classes.expanded}`}>
+      <ul
+        className={` ${classes["nav-list"]} ${isToggled && classes.expanded} `}
+      >
         <li>
           <a
             href="

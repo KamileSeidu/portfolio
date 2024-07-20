@@ -2,7 +2,7 @@ import classes from "../components/Contact.module.css";
 
 export default function Contact() {
   return (
-    <div>
+    <div className={classes.contact}>
       <h1>Let's Develop Together</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda,
@@ -10,7 +10,11 @@ export default function Contact() {
       </p>
       <div className={classes.form}>
         <form>
-          <input type="email" placeholder="Enter your email" />
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className={classes.input}
+          />
           <textarea
             name="message"
             id="message"

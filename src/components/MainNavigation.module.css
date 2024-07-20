@@ -67,13 +67,18 @@
   gap: 10px;
 }
 
-h1 {
+.logo-img {
+  width: 67px;
+  height: 67px;
+}
+
+.logo-heading {
   font-size: 4rem;
   font-weight: 300;
   margin: 0;
 }
 
-h1 span {
+.logo-heading span {
   font-weight: 500;
 }
 
@@ -84,7 +89,7 @@ nav {
   align-items: center;
 }
 
-ul {
+.nav-list {
   /* display: none; */
   max-height: 0;
   overflow: hidden;
@@ -99,35 +104,30 @@ ul {
   max-height: 100vh;
 }
 
-li {
+.nav-list li {
   font-size: 1.4rem;
   padding: 1rem 1.4rem;
 }
 
-.btn--primary {
+.nav-list a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+a.btn--primary {
   background-color: #fd6f00;
   color: white;
   padding: 1rem;
   border-radius: 5px;
 }
 
-img {
-  width: 45px;
-  height: 45px;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 500;
-}
-
 @media (min-width: 1024px) {
-  input {
+  .menu {
     display: none;
   }
 
-  ul {
+  .nav-list {
     display: flex;
     max-height: 100%;
     overflow: visible;

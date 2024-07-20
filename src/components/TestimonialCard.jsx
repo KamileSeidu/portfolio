@@ -8,12 +8,12 @@ export default function TestiominalCard() {
         <img src={salisu} alt="" />
       </div>
       <div className={`${classes["card__content"]}`}>
-        <quote>
+        <p>
           <span>"</span> Lorem, ipsum dolor sit amet consectetur adipisicing
           elit. Reprehenderit odit quam, quia eius obcaecati rem beatae
           perspiciatis tenetur velit quidem eligendi vel dolorum explicabo.
           Ratione suscipit qui dolorem quisquam exercitationem! <span>"</span>
-        </quote>
+        </p>
         <h1>Mohammed Salisu Abubakari</h1>
         <h2>CEO, SAID Foundation Ghana</h2>
       </div>

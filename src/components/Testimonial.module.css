@@ -1,11 +1,17 @@
-main {
-  margin-top: 2rem;
+.testimonial {
+  margin-top: 5rem;
 }
 
-p {
+.main {
+  margin-top: 3rem;
+}
+
+.paragraph {
   text-align: center;
+  font-size: 1.4rem;
 }
 
 .heading {
   text-align: center;
+  font-weight: 300;
 }

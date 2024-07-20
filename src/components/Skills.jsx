@@ -9,7 +9,7 @@ const skillList = SKILLS.map((item, index) => (
 export default function Skills() {
   return (
     <div className={classes.skills}>
-      <h1>TECHNICALS SKILLS</h1>
+      <h1>Technical Skills</h1>
       <div className={`${classes["skill-cards"]}`}>{skillList}</div>
     </div>
   );

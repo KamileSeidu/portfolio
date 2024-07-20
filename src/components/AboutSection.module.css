@@ -1,4 +1,14 @@
-img {
+.about {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.about-paragraph {
+  margin-bottom: 3rem;
+}
+
+.about img {
   width: 100%;
   border: 10px solid white;
   border-radius: 30px;
@@ -15,17 +25,17 @@ img {
     flex-direction: row;
   }
 
-  img {
+  .about img {
     max-width: 500px;
   }
 
-  h1 {
+  .about h1 {
     margin: 0;
     font-size: 4rem;
     font-weight: 600;
   }
 
-  p {
+  .about p {
     font-size: 1.4rem;
   }
 

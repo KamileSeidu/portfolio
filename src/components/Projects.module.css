@@ -1,7 +1,12 @@
-h1 {
+.projects {
+  margin-top: 5rem;
+}
+
+.projects h1 {
   text-align: center;
   font-size: 4rem;
 }
+
 .tab-button {
   display: flex;
   gap: 15px;
