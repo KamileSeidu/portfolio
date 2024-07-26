@@ -4,7 +4,8 @@ import classes from "../components/ProjectCard.module.css";
 export default function ProjectCard({ title, image, description }) {
   return (
     <div className={classes.card}>
-      <a href="">
+      {/* To be removed */}
+      <a href="/something" target="_blank">  
         <img src={image} alt="" />
         <h2>{title}</h2>
         <p>{description}</p>
